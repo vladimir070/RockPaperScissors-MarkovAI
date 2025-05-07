@@ -1,4 +1,17 @@
 # RockPaperScissors-MarkovAI
+
+## Features
+
+**Markov AI:** Artificial intelligence based on Markov chains that learns during the game.
+*   **Pre-training:** The AI is pre-trained on 20000 games to improve its game from the start.
+*   **Graphical Interface:** Simple and user-friendly graphical interface based on Tkinter.
+*   **Statistics:** Display of game statistics (player wins, AI wins, draws).
+
+## How it Works
+
+The Markov AI uses a Markov chain to model the game strategy. The Markov chain stores information about what moves the AI has made in the past, and what moves the opponent followed those moves with. Based on this information, the AI predicts what move the opponent will make in the future and chooses the move that is most likely to lead to victory.
+
+
 # Камень, Ножницы, Бумага с Markov AI
 
 Простая игра "Камень, Ножницы, Бумага" с использованием алгоритма Markov AI (цепи Маркова).
